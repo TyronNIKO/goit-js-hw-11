@@ -10,21 +10,9 @@ jsLoader.init();
 let searchParams = new URLSearchParams({
   key: '7706316-da1567048322714709989c4f8',
   q: '',
-  lang: 'en',
-  id: '',
   image_type: 'photo',
   orientation: 'horizontal',
-  category: '',
-  min_width: '0',
-  min_height: '0',
-  colors: '',
-  editors_choice: false,
-  safesearch: false,
-  order: 'popular',
-  page: 1,
-  per_page: 10,
-  callback: '',
-  pretty: false,
+  safesearch: true,
 });
 
 fetchPhotoForm.addEventListener('submit', e => {
