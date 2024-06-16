@@ -6,27 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Homework 11</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" rel="stylesheet" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link href="https://fonts.googleapis.com" rel="preconnect">
-    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
     <script type="module" crossorigin src="/goit-js-hw-11/commonHelpers.js"></script>
     <link rel="modulepreload" crossorigin href="/goit-js-hw-11/assets/vendor-8c59ed88.js">
     <link rel="stylesheet" href="/goit-js-hw-11/assets/vendor-1cd1f9d9.css">
-    <link rel="stylesheet" href="/goit-js-hw-11/assets/index-b2d4aad4.css">
+    <link rel="stylesheet" href="/goit-js-hw-11/assets/index-737194cc.css">
   </head>
   <body>
 
     <section>
         <div class="container">
-            <form>
-                <input type="text">
-                <button class="btn" type="submit">Search</button>
+            <form class="request-picture">
+                <input type="text" name="request" placeholder="Search images...">
+                <button class="btn btn-blue" type="submit">Search</button>
             </form>
-        </div>
-    </section>
-    <section>
-        <div class="container">
+            <span class="js-loader-text center">Loading images, please wait...</span>
             <ul class="photo-list gallery"></ul>
         </div>
     </section>
