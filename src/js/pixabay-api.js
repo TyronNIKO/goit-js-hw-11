@@ -13,6 +13,8 @@ export function pixabayRequest(searchParams, container) {
         return response.json();
       })
       .then(photos => {
+        console.log(photos);
+
         if (!photos.hits || photos.hits.length === 0)
           throw new Error('Error! Nothing to load');
         renderPhotoList(photos, container);
