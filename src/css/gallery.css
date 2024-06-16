@@ -51,12 +51,12 @@
         width: calc((100% - 20px) / 2);
     }
 }
-@media screen and (min-width:767px){
+@media screen and (min-width:768px){
     .photo-list li a {
         height: 200px;
     }
 }
-@media screen and (min-width:991px){
+@media screen and (min-width:992px){
     .photo-list li .content {
         flex-wrap: nowrap;
     }
@@ -64,7 +64,7 @@
         width: 100%;
     }
 }
-@media screen and (min-width:1160px){
+@media screen and (min-width:1200px){
     .photo-list {
         flex-direction: row;
         gap: 20px;
