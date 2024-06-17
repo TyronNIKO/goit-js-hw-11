@@ -31,6 +31,7 @@ export function showError(type, text) {
   iziToast.show({
     title: `${type}`,
     color: color,
+    maxWidth: '33%',
     iconUrl: icons[type.toLowerCase()],
     position: 'topRight', // bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter, center
     message: `${text}`,
